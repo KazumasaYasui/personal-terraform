@@ -1,4 +1,7 @@
-variable "GOOGLE_CREDENTIALS" {}
+variable "GOOGLE_CREDENTIALS" {
+  description = "GCP credentials"
+  default     = ""
+}
 
 variable "region" {
   description = "GCP region"
@@ -12,5 +15,5 @@ variable "zone" {
 
 variable "project" {
   description = "GCP project"
-  default     = "PersonalProject"
+  default     = "personalproject-379409"
 }
