@@ -16,7 +16,7 @@ locals {
   ])
 
   roles = toset([
-    "roles/storage.admin",
+    "roles/owner",
   ])
 }
 
